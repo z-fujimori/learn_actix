@@ -1,0 +1,10 @@
+version: "3"
+services: 
+  web:
+    build: ./opt
+    container_name: "practice-rust"
+    tty: true
+    volumes: 
+      - ./opt:/usr/src/myapp
+    ports:
+      - "8008:8008"

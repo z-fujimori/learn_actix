@@ -1,0 +1,124 @@
+cargo:rerun-if-env-changed=ZSTD_SYS_USE_PKG_CONFIG
+OUT_DIR = Some(/usr/src/myapp/practice-rust/target/debug/build/zstd-sys-add110d71b8429ef/out)
+TARGET = Some(aarch64-unknown-linux-gnu)
+OPT_LEVEL = Some(0)
+HOST = Some(aarch64-unknown-linux-gnu)
+cargo:rerun-if-env-changed=CC_aarch64-unknown-linux-gnu
+CC_aarch64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CC_aarch64_unknown_linux_gnu
+CC_aarch64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CC_ENABLE_DEBUG_OUTPUT
+RUSTC_WRAPPER = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some(true)
+CARGO_CFG_TARGET_FEATURE = Some(neon)
+cargo:rerun-if-env-changed=CFLAGS_aarch64-unknown-linux-gnu
+CFLAGS_aarch64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CFLAGS_aarch64_unknown_linux_gnu
+CFLAGS_aarch64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+OUT_DIR = Some(/usr/src/myapp/practice-rust/target/debug/build/zstd-sys-add110d71b8429ef/out)
+cargo:rerun-if-env-changed=CC_ENABLE_DEBUG_OUTPUT
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some(neon)
+cargo:rerun-if-env-changed=CFLAGS_aarch64-unknown-linux-gnu
+CFLAGS_aarch64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CFLAGS_aarch64_unknown_linux_gnu
+CFLAGS_aarch64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+OUT_DIR = Some(/usr/src/myapp/practice-rust/target/debug/build/zstd-sys-add110d71b8429ef/out)
+cargo:rerun-if-env-changed=CC_ENABLE_DEBUG_OUTPUT
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some(neon)
+cargo:rerun-if-env-changed=CFLAGS_aarch64-unknown-linux-gnu
+CFLAGS_aarch64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CFLAGS_aarch64_unknown_linux_gnu
+CFLAGS_aarch64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+OUT_DIR = Some(/usr/src/myapp/practice-rust/target/debug/build/zstd-sys-add110d71b8429ef/out)
+cargo:rerun-if-env-changed=CC_ENABLE_DEBUG_OUTPUT
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some(neon)
+cargo:rerun-if-env-changed=CFLAGS_aarch64-unknown-linux-gnu
+CFLAGS_aarch64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CFLAGS_aarch64_unknown_linux_gnu
+CFLAGS_aarch64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+cargo:rerun-if-env-changed=AR_aarch64-unknown-linux-gnu
+AR_aarch64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=AR_aarch64_unknown_linux_gnu
+AR_aarch64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_AR
+HOST_AR = None
+cargo:rerun-if-env-changed=AR
+AR = None
+cargo:rerun-if-env-changed=ARFLAGS_aarch64-unknown-linux-gnu
+ARFLAGS_aarch64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=ARFLAGS_aarch64_unknown_linux_gnu
+ARFLAGS_aarch64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_ARFLAGS
+HOST_ARFLAGS = None
+cargo:rerun-if-env-changed=ARFLAGS
+ARFLAGS = None
+cargo:warning=ar: warning: /usr/src/myapp/practice-rust/target/debug/build/zstd-sys-add110d71b8429ef/out/690f776bf7b37aeb-huf_decompress_amd64.o: unsupported GNU_PROPERTY_TYPE (5) type: 0xc0000000
+cargo:warning=ar: warning: /usr/src/myapp/practice-rust/target/debug/build/zstd-sys-add110d71b8429ef/out/libzstd.a(690f776bf7b37aeb-huf_decompress_amd64.o): unsupported GNU_PROPERTY_TYPE (5) type: 0xc0000000
+cargo:rustc-link-lib=static=zstd
+cargo:rustc-link-search=native=/usr/src/myapp/practice-rust/target/debug/build/zstd-sys-add110d71b8429ef/out
+cargo:root=/usr/src/myapp/practice-rust/target/debug/build/zstd-sys-add110d71b8429ef/out
+cargo:include=/usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/zstd-sys-2.0.13+zstd.1.5.6/zstd/lib
